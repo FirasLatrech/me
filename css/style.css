@@ -1,0 +1,1474 @@
+/* ... Existing CSS rules ... */
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu-hotdog.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/eye-alt.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/software-download.css');
+/* ... Existing CSS rules ... */
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.head {
+  position: fixed;
+    top: 0;
+    
+    margin: 1rem 8rem;
+    background-color: rgb(255 255 255 / 10%);
+    border-radius: 13px;
+    backdrop-filter: blur(20px);
+    padding: 0 20px;
+    z-index: 101;
+    width: auto;
+}
+a{
+  position: relative;
+  z-index: 100;
+  text-decoration: none;
+}
+.gmail{
+  fill: black;
+  stroke: black;
+}
+.header {
+  font-family: 'Fascinate Inline', cursive;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 18px;
+  color: #000; /* Set the font color */
+}
+
+/* ... Remaining CSS rules ... */
+
+.header span{
+  color: yellow;
+  font-size: 19px;
+}
+.header .lines{
+  display: flex;
+  align-items: center;
+  gap: 0rem;
+  padding-right: 3rem;
+  
+}
+.header .lines a{
+  font-family: "DynaPuff";
+  text-decoration: none;
+  cursor: pointer;
+  color: #3772FF;
+}
+.header .lines a:hover{
+  font-weight: 600;
+  
+}
+.head .lines i{
+  scale: 1.4;
+  display: none;
+}
+
+.head:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.7ms;
+
+  
+}
+.about{
+
+  color: #E6E8E6;
+  margin-top: 4rem;
+  font-family: "Space Mono";
+  font-weight: 600;
+  margin-left: 4rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+
+}
+
+.about h1{
+  font-family:"Fascinate Inline" ;
+  color: #3772FF;
+}
+/* ... Remaining CSS rules ... */
+/* project 1 css style  */
+
+.projectOneContainer {
+  margin-right: 3rem;
+  margin-bottom: -31rem;
+  margin-left: 12rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.projectOneContainer .textContinerOne{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.projectOneContainer .textContinerOne h1{
+  font-family: "space Mono";
+  display: flex;
+  flex-direction: column;
+  background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  
+
+}
+.projectOneContainer .textContinerOne h3{
+  font-family: "space Mono";
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  
+
+}
+
+.projectOneContainer .imgaSectionOne{
+  background-color: white;
+  border-radius: 12Px;
+}
+.projectOneContainer .imgaSectionOne img {
+  width: 414px;
+  padding: 4px;
+  border-radius: 27px;
+  height: 300px;
+}
+.projectOneContainer .buttons{
+  display: flex;
+  gap: 2rem;
+  
+}
+.projectOneContainer button{
+  z-index: 100;
+  margin-top: 2rem;
+  font-family: 'Space Mono';
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  gap: 1rem;
+  width: auto;
+  align-items: center;
+  color: #3772FF;
+  background-color: transparent;
+  border: 3px dotted yellow;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  width: 12rem;
+}
+.projectOneContainer button:hover {
+  cursor: pointer;
+
+  color: yellow;
+  border: 3px solid #3772FF;
+}
+/* fin project 1 css style  */
+.textcotiner{
+  
+  color: white;
+  position: relative;
+  bottom: -15rem;
+  margin: 5rem;
+}
+.textcotiner h1{
+  font-family: "DynaPuff";
+  font-weight: 600;
+}
+
+.textcotiner h3{
+  font-family: "Space Mono";
+  color:  #3772FF;
+  font-weight: 600;
+}
+.textcotiner{
+  z-index: 100;
+}
+.textcotiner h3 span{
+  color: yellow;
+}
+.textcotiner button{
+  background-color: transparent;
+  font-family: "Space Mono";
+  color: #3772FF;
+  padding: 15px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border: none;
+  border: 2px dotted yellow;
+  border-radius: 2rem;
+  
+
+}
+.textcotiner button:hover{
+  border :2px solid #3772FF; 
+  color: yellow;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.aLine{
+  display: flex;
+    gap: 3rem;
+    position: relative;
+    left: 5rem;
+}
+.svgLien{
+  margin-top: 29rem;
+  display: flex;
+  justify-content: center;
+}
+.imageStart{
+  margin: 0rem;
+  position: absolute;
+  right: 0;
+}
+.skilss{
+  color: #E6E8E6;
+  font-family: "DynaPuff";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.svgSkils{
+  
+  margin-top: -1rem;
+}
+.spans{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: var(--gradient-lima, linear-gradient(270deg, #FFE597 0%, #AAFF82 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 10rem;
+
+
+}
+.spans span{
+  border: 2px solid ;
+  border-color: #ad83fe;
+  display: flex;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+border-radius: 120px;
+
+
+}
+.image2Spans{
+  position: absolute;
+  left: 0;
+}
+.imgaSpans{
+  position: absolute;
+  right: 0;
+}
+.project{
+  color: white;
+  font-family: "DynaPuff";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cardProject{
+  
+  display: flex;
+  flex-direction: column;
+  left: -12rem;
+  position: relative;
+  align-items: center;
+  height: 408px;
+  transform: rotate(-5deg);
+  border-radius: 20px;
+  border: 1px solid #E0E0E0;
+  background: #FCFAFA;
+}
+.cardProject img{
+  width: 459px;
+    height: 350px;
+    border-radius: 63px;
+    margin-top: 13px;
+    margin-left: 10px;
+  
+
+}
+.cardProject h3{
+  font-family: "Space Mono";
+  color: #000;
+    font-size: 25px;
+    position: relative;
+    left: 3rem;
+    margin-top: 1px;
+
+
+}
+.cardsProject{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardsProject .textCont{
+  display: flex;
+  flex-direction: column;
+  
+  position: absolute;
+  right: 0;
+  margin-right: 11rem;
+}
+.cardsProject .textCont h1{
+
+/* Big-Title */
+font-family: "Space Mono";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 96px; /* 123.077% */
+background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cardsProject .textCont h3{
+  background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+  margin-top: -2rem;
+  margin-bottom: 6rem;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cardsProject .textCont .buttons{
+  display: flex;
+  gap: 2rem;
+}
+.cardsProject .textCont button{
+  z-index: 100;
+  margin-top: 2rem;
+  font-family: 'Space Mono';
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  gap: 1rem;
+  width: auto;
+  align-items: center;
+  color: #3772FF;
+  background-color: transparent;
+  border: 3px dotted yellow;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+}
+.cardsProject .textCont button:hover {
+  cursor: pointer;
+
+  color: yellow;
+  border: 3px solid #3772FF;
+}
+.imgCardsProject{
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  left: 32rem;
+  bottom: -3rem;
+  
+
+}
+.projectImageSvg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.imageTowProject{
+  margin-top: 35rem;
+}
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  gap: 2px;
+  /* Add any other styles you want for the container here */
+}
+
+.sectionTowProject{
+  display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  
+}
+.textContinerTowProject h1 {
+  font-family: "space Mono";
+    font-size: 30px;
+    background: var(--gradient-mint, linear-gradient(270deg, #A9FE81 0%, #C0F0FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.textContinerTowProject h3{
+  margin-top: -1rem;
+  margin-bottom: 5rem;
+  font-size: 20px;
+  background: var(--gradient-mint, linear-gradient(270deg, #A9FE81 0%, #C0F0FF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imgContinerTowProkects img {
+  height: 271px;
+    width: 304px;
+    border-radius: 1rem;
+
+}
+.imgContinerTowProkects{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.cardProject2{
+  padding: 9px;
+  height: 326px;
+  border-radius: 2rem 2rem 2rem 2rem;
+  background-color: white;
+}
+.imgContinerTowProkects h3{
+  font-family: "Space Mono";
+  font-size: 17px;
+  color: #000;
+  padding: 0rem 1rem 1rem 2rem;
+  margin-top: 8px;
+
+}
+
+.buttons{
+  display: flex;
+  gap: 1rem;
+}
+.imgProject2{
+  rotate: -5.919deg;
+  z-index: 99;
+}
+.imgProject3{
+  rotate: 5.611deg;
+  z-index: 100;
+  position: relative;
+  bottom: 10px;
+}
+.imageTowProjectStart{
+  position: absolute;
+  left: 0;
+}
+
+.textContinerTowProject .buttons{
+  display: flex;
+  gap: 2rem;
+}
+.textContinerTowProject button{
+  z-index: 100;
+  margin-top: 2rem;
+  font-family: 'Space Mono';
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  gap: 1rem;
+  width: auto;
+  align-items: center;
+  color: #3772FF;
+  background-color: transparent;
+  border: 3px dotted yellow;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+}
+.textContinerTowProject button:hover {
+  cursor: pointer;
+
+  color: yellow;
+  border: 3px solid #3772FF;
+}
+
+
+.thereProject{
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  
+}
+.thereProject .imagecontinerThereProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-left: 3rem;
+  width: 400px;
+  height: 380px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+  
+}
+
+.thereProject .imagecontinerThereProject img{
+  width: 300px;
+  height: 300px;
+  border-radius: 17px;
+  border: 1px rgba(0, 0, 0, 0.105) solid;
+  
+}
+.thereProject .imagecontinerThereProject h3{
+  color: #000;
+  font-family: "Space Mono";
+  text-align: center;
+}
+.thereProject .textContinerThereProject h1{
+
+/* Big-Title */
+font-family: "Space Mono";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 96px; /* 123.077% */
+background: var(--gradient-grape, linear-gradient(270deg, #DBA6F4 0%, #A981FE 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.thereProject .textContinerThereProject h3{
+  margin-top: -2rem;
+  margin-bottom: 6rem;
+  background: var(--gradient-grape, linear-gradient(270deg, #DBA6F4 0%, #A981FE 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.thereProject .textContinerThereProject p{
+
+}
+.thereProject .textContinerThereProject .buttons{
+  display: flex;
+  gap: 2rem;
+}
+.thereProject .textContinerThereProject button{
+  z-index: 100;
+  margin-top: 2rem;
+  font-family: 'Space Mono';
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  gap: 1rem;
+  width: auto;
+  align-items: center;
+  color: #3772FF;
+  background-color: transparent;
+  border: 3px dotted yellow;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+}
+.thereProject .textContinerThereProject button:hover {
+  cursor: pointer;
+
+  color: yellow;
+  border: 3px solid #3772FF;
+}
+.imageThereProjectStart{
+  position: absolute;
+  right: 0;
+}
+.star{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 22rem;
+  scale: 1;
+}
+.imgLast{
+  margin-top: 3rem;
+  display: flex;
+}
+.iconLastProject{
+  position: relative;
+  top: 19rem;
+  left: -24rem;
+}
+.imgLast h3{
+  font-family: "Space Mono";
+  position: relative;
+  top: 10rem;
+  left: -3rem;
+  background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 0%, #FF9486 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.imgLast svg{
+  position: relative;
+  left: 7rem;
+}
+.viewMoreSection{
+  color: white;
+  margin-left: 3rem;
+  
+  position: relative;
+  z-index: 100;
+  
+  
+
+}
+.viewMoreSection h1{
+  font-family: 'Fascinate Inline', cursive;
+  background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 0%, #FF9486 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.viewMoreSection button{
+  padding: 1rem;
+    background-color: transparent;
+    color: white;
+    background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 0%, #FF9486 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid;
+    border-radius: 12px;
+    font-family: "Space Mono";
+    cursor: pointer;
+    font-size: 18px;
+}
+.viewMoreSection button:hover{
+  
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    transition: 0.5s;
+}
+.english{
+  position: absolute;
+  right:  0;
+}
+
+.english p{
+  font-family:  "Space Mono";
+  margin-left: 1rem;
+    margin-top: -6rem;
+    background: var(--gradient-strawberry, linear-gradient(270deg, #FF4646 0%, #FF9486 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.english svg{
+  position: absolute;
+  left: 4rem;
+}
+.imgContactPage{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+
+span .spans:first-child{
+  border: none;
+
+
+}
+
+.cardContact{
+  color: white;
+}
+.contact{
+  position: relative;
+  z-index: 100;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 10rem;
+}
+.contact .cardContact p{
+  font-size: 2rem;
+  font-family: 'DynaPuff';
+  
+
+}
+.contact .cardContact p a{
+  color: #AAFF82;
+  
+  text-decoration-line: underline;
+    cursor: pointer;
+    font-family: 'Fascinate Inline';
+    letter-spacing: 3px;
+  
+}
+
+.contact .cardContact{
+  width: 21rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.contact .img svg{
+  fill: white;
+}
+footer{
+    margin-top: 1rem;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fascinate Inline', cursive;
+    color: yellow;
+    gap: 1rem;
+}
+footer a{
+  font-family: "DynaPuff";
+  color: #3772FF;
+  letter-spacing: 2px;
+  
+}
+
+
+
+.lineMobil{
+  overflow-y: scroll;
+  display: flex;
+  text-align: center;
+  gap: 3rem;
+  flex-direction: column;
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  margin: 1rem;
+  background-color: rgb(255 255 255 / 10%);
+  border-radius: 13px;
+  backdrop-filter: blur(20px);
+  padding: 1rem 1rem 3rem 1rem;
+  z-index: 104;
+  height: auto;
+  font-family: 'Fascinate Inline';
+  font-size: 25px;
+  display: none;
+}
+.lineMobil a{
+  content: "";
+  color: #3772FF;
+  letter-spacing: 2px;
+}
+.lineMobil a:hover{
+  color: yellow;
+    transition: 0.6s;
+}
+.blockline{
+  display: flex !important;
+}
+
+
+/* responisve */
+
+
+
+@media  (max-width: 1030px) {
+  .aLine{
+    display: none;
+  }
+  #menu{
+    display: block;
+  }
+
+  .header{
+
+    width: 35rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  
+
+}
+
+@media (max-width:1004px) {
+  *{
+  
+
+    
+  }
+  
+}
+
+@media (max-width:1119px) {
+}
+@media (max-width:1164px) {
+  
+}
+@media (max-width:1019px) {
+  
+  
+  
+}
+@media (max-width:799px) {
+  .spans{
+    margin-left:3rem;
+  }
+  .head{
+
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+  .lineMobil{
+    width: 41rem;
+    margin-left: 4rem;
+  }
+  .projectOneContainer .imgaSectionOne{
+    background-color: white;
+    border-radius: 12Px;
+    height: 20rem;
+    width: 26rem;
+  }
+  .projectOneContainer {
+    margin-right: 3rem;
+    margin-bottom: -31rem;
+    margin-left: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.sectionTowProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.imgContinerTowProkects {
+  margin-top: 1rem;
+  width: 20rem;
+  scale: 1.1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 5rem;
+}
+.imgProject2{
+  rotate: 0deg;
+
+}
+.imgProject3{
+  rotate: 0deg;
+}
+.thereProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.thereProject .imagecontinerThereProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-left: 3rem;
+  width: 331px;
+  height: 366px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem;
+}
+.contact {
+  position: relative;
+  z-index: 100;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.spans{
+  margin-left: 5rem;
+}
+.imgContinerTowProkects {
+  margin-top: 1rem;
+  width: 20rem;
+  scale: 1.1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 10rem;
+}
+.textContinerTowProject{
+position: relative;
+left: 6rem;
+}
+.thereProject{
+position: relative;
+left: 5rem;
+}
+
+@media (max-width:718px) {
+  .star {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 28rem;
+    scale: 1;
+}
+.head {
+  margin: 1rem;
+}
+.textContinerTowProject{
+  position: relative;
+    left: -1rem;
+  }
+  .thereProject{
+    position: relative;
+    left: 2rem;
+    }
+    .imgContinerTowProkects{
+      position: relative;
+      left: 5rem;
+    }
+
+}
+@media  (max-width:632px) {
+  .head {
+    margin: 1rem;
+}
+.contact{
+  margin-right: -6rem;
+}
+.imgLast {
+  margin-top: 3rem;
+  display: flex;
+  scale: 0.9;
+  rotate: -11deg;
+}
+  
+  
+}
+@media (max-width:595px) {
+  .head{
+    width: 540px;
+    margin-left: 5rem;
+    margin-right: 3rem;
+  }
+  .header{
+    width: 500px;
+    
+  }
+  .spans{
+    margin-left: 5rem;
+  }
+  .imgContinerTowProkects {
+    margin-top: 1rem;
+    width: 20rem;
+    scale: 1.1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 10rem;
+}
+.textContinerTowProject{
+  position: relative;
+  left: 6rem;
+}
+.thereProject{
+  position: relative;
+  left: 5rem;
+}
+.imageTowProject {
+  scale: 0.9;
+  margin-top: 31rem;
+  rotate: -49deg;
+  margin-bottom: 4rem;
+}
+}
+@media (max-width:479px) {
+  .head{
+    width: 450px;
+    margin: 1rem;
+  }
+  .header{
+    width: 420px;
+  }
+  .lineMobil{
+    width: 420px;
+    margin-left: 2rem;
+  }
+  .about p{
+    min-width: 300px
+  }
+  .projectOneContainer{
+    scale: 0.9;
+    position: relative;
+    right: 5rem;
+  }
+  .sectionTowProject{
+    position: relative;
+    right: 4rem;
+  }
+  .textContinerTowProject h1{
+    font-size: 21px;
+    margin-bottom: 2rem;
+  }
+  .thereProject{
+  position: relative;
+  left: 3rem;
+  }
+  .imgLast svg {
+    position: relative;
+    left: 7rem;
+    scale: 0.9;
+    rotate: -32deg;
+    margin-bottom: 2rem;
+}
+.imgLast h3{
+  rotate: 10deg;
+    position: relative;
+    left: -13rem;
+}
+.contact {
+  position: relative;
+  z-index: 100;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 0rem;
+}
+.contact .cardContact p{
+  font-size: 2rem;
+    width: 255px;
+}
+.imgContactPage {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 16rem;
+  margin-bottom: -7rem;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  left: 3rem;
+  justify-content: center;
+  text-align: center;
+}
+}
+@media (max-width:428px) {
+  .ggg{
+    display: flex;
+    flex-direction: row;
+  }
+  .head{
+    width: 380px;
+    margin: 1rem;
+  }
+  .header{
+    width: 360px;
+  }
+  .lineMobil{
+    width: 420px;
+    margin-left: 2rem;
+  }
+  .about p{
+    min-width: 300px
+  }
+  .projectOneContainer{
+    scale: 0.9;
+    position: relative;
+    right: 5rem;
+  }
+  .sectionTowProject{
+    position: relative;
+    right: 4rem;
+  }
+  .textContinerTowProject h1{
+    font-size: 21px;
+    margin-bottom: 2rem;
+  }
+  .thereProject{
+  position: relative;
+  left: 3rem;
+  }
+  .imgLast svg {
+    position: relative;
+    left: 7rem;
+    scale: 0.9;
+    rotate: -32deg;
+    margin-bottom: 2rem;
+}
+.imgLast h3{
+  rotate: 10deg;
+    position: relative;
+    left: -13rem;
+}
+.contact {
+  position: relative;
+  z-index: 100;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 0rem;
+}
+.contact .cardContact p{
+  font-size: 2rem;
+    width: 255px;
+}
+.imgContactPage {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 16rem;
+  margin-bottom: -7rem;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  left: 3rem;
+  justify-content: center;
+  text-align: center;
+}
+  .imgContinerTowProkects{
+    position: relative;
+    left: 7rem;
+  }
+  .thereProject .imagecontinerThereProject{
+    position: relative;
+    left: -4rem;
+  }
+  .revers{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .textContinerProject {
+    font-family: "Space Mono";
+    position: relative;
+    width: 351px;
+    height: 300px;
+    right: 0;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0rem;
+    margin-bottom: -6rem;
+    background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.projectImg{
+  position: relative;
+  left: 8rem;
+  rotate: 15deg
+
+}
+.lineMobil{
+
+  margin-left: 1rem;
+  width: 380px;
+}
+}
+
+
+
+  
+}
+@media (max-width:414px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    left: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+footer {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+   
+.textContinerThereProject p ,.thereProject .textContinerThereProject .buttons ,.english ,.textContinerTowProject p{
+  position: relative;
+  left: -19px;
+  
+}
+
+.english{
+  margin-top: 1rem;
+  margin-bottom: -13rem;
+}
+.svgLien {
+  margin-top: 16rem;
+  margin-bottom: -6rem;
+  display: flex;
+  justify-content: center;
+  
+}
+.about p{
+  margin-bottom: -10rem;
+}
+.skilss {
+  margin-bottom: -8rem;
+}
+.projectImg{
+  rotate: 8deg;
+}
+.projectOneContainer .textContinerOne {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  scale: 0.95;
+
+}
+.projectOneContainer{
+  scale: 0.95;
+  position: relative;
+  
+
+}
+.projectOneContainer .imgaSectionOne {
+  scale: 0.95;
+  background-color: white;
+  border-radius: 12Px;
+  height: 20rem;
+  width: 26rem;
+  position: relative;
+  left: 18px;
+}
+}
+@media (max-width:375px) {
+  .head{
+    margin: 4px;
+    width: 360px;
+  }
+  .header{
+    width: 340px;
+  }
+  .lineMobil{
+    margin: 4px;
+    width: 360px;
+  }
+  .project{
+    scale: 0.97;
+    position: relative;
+    left: 1px;
+  }
+  .imgContinerTowProkects {
+    position: relative;
+    left: 6rem;
+}
+.textContinerTowProject .buttons {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  left: -2rem;
+}
+.thereProject .textContinerThereProject .buttons {
+  display: flex;
+  left: -33px;
+  gap: 2rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  left: -1rem;
+  justify-content: center;
+  text-align: center;
+}
+}
+@media (max-width:360px) {
+
+  .head{
+    margin: 10px;
+    width: 330px;
+  }
+  .header{
+    width: 310px;
+  }
+  .lineMobil{
+    width: 330px;
+    margin: 10px;
+  }
+  .ggg {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -2rem;
+}
+.about p {
+  margin-bottom: -10rem;
+  margin-left: -2rem;
+}
+.textContinerProject {
+  
+  margin-left: 3rem;
+  scale: 0.93;
+}
+.projectImg {
+  rotate: 16deg;
+  left: 6rem;
+}
+
+.projectOneContainer .imgaSectionOne {
+  scale: 0.8;
+  margin-bottom: -4rem;
+  margin-top: -4rem;
+}
+.projectOneContainer .textContinerOne {
+  display: flex;
+  flex-direction: column;
+  margin-left: 34px;
+  position: relative;
+  scale: 0.87;
+}
+.thereProject .textContinerThereProject .buttons {
+  display: flex;
+  left: -33px;
+  gap: 1rem;
+}
+}
+@media (max-width:320px) {
+  .head{
+    width: 300px;
+  }
+  .header{
+    width: 270px;
+  }
+  .lineMobil{
+    width: 300px;
+  }
+  .textContinerTowProject {
+    position: relative;
+    left: 6rem;
+    scale: 0.96;
+}
+.buttons{
+  gap: 10px;
+}
+}
+@media  (max-width:1440px) {
+  
+
+  
+}
+@media (max-width:1155px) {
+  
+  
+}
+.revers{
+  
+    display: flex;
+    flex-direction: column-reverse;
+
+  
+}
+@media (min-width:1200px) {
+  .textContinerProject {
+    font-family: "Space Mono";
+    position: relative;
+    margin-bottom: 0rem;
+    width: 414Px;
+    left: 27rem;
+    bottom: -26rem;
+    height: 300px;
+    margin-top: 11rem;
+    margin-right: 0rem;
+    background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .revers{
+    margin-top: -27rem;
+    display: flex;
+    margin-bottom: 3rem;
+  }
+  
+}
+
+@media (min-width:1000px) {
+  .textContinerProject {
+    font-family: "Space Mono";
+    position: relative;
+    margin-bottom: rem;
+    
+    width: 300Px;
+    left: 27rem;
+    bottom: -26rem;
+    height: 300px;
+    margin-top: 11rem;
+    margin-right: 0rem;
+    background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .revers{
+    margin-top: -27rem;
+    display: flex;
+    margin-bottom: rem;
+  }
+  
+}
+
+@media (min-width:2560px) {
+  .head{
+    width: 2300px;
+  }
+  
+}
+@media (min-width:1440px) {
+  .head{
+    width: 1200px;
+  }
+  
+}
+@media (max-width:1000px) {
+  .textContinerProject {
+    font-family: "Space Mono";
+    margin-left: 3rem;
+  
+    
+    background: var(--gradient-sky, linear-gradient(270deg, #BFF0FF 0%, #82B4FF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  .revers{
+    margin-bottom: 2rem;
+  }
+  .projectImg{
+    position: absolute;
+    right: 0;
+    top: 30rem;
+    display: none;
+  }
+}
